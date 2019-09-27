@@ -1,0 +1,217 @@
+body
+{
+	background-color: #5b5b5bff;
+}
+
+#pear
+{
+	width: 600px; 
+	height: 600px;
+}
+
+#box
+{
+	width: 600px;
+	margin: auto;
+}
+
+#header_img
+{
+	width: 855px;
+	height: 150px;
+}
+
+#header_box
+{
+	width: 855px;
+	margin: auto;
+}
+
+#buttons_box
+{
+	width: 1550px;
+	height: 126px;
+	margin: auto;
+}
+
+.button_properties
+{
+	width: 378px;
+	height: 126px;
+}
+
+#icon_box
+{
+	width: 200px;
+	margin: auto;
+}
+
+#icon_img
+{
+	width: 200px;
+	height: 200px;
+}
+
+#design_box
+{
+	width: 1000px;
+	height: 800px;
+	margin: auto;
+	background-color: white;
+	border-style: solid;
+	border-color: black;
+}
+
+#black_design_box
+{
+	width: 1000px;
+	height: 800px;
+	margin: auto;
+	background-color: black;
+	border-style: solid;
+	border-color: black;
+}
+
+#atdt
+{
+	width: 874px;
+	height: 779px;
+}
+#atdt_wrapper
+{
+	margin-left: 63px;
+	padding-top: 10px;
+}
+
+.back_next
+{
+	width: 1000px;
+	height: 75px;
+	margin: auto;
+}
+
+.bn_properties
+{
+	width: 225px;
+	height: 75px;
+}
+
+.bn_center
+{
+	margin-left: 275px;
+}
+
+.img_title
+{
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 40px;
+	color: white;
+}
+
+.img_content
+{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 25px;
+	color: white;
+}
+
+.img_head
+{
+	width: 1000px;
+	height: 150px;
+	margin: auto;
+}
+
+#jesus_wrapper
+{
+	padding-top: 150px;
+	margin-left: 75px;
+}
+
+#jesus
+{
+	width: 896px;
+	height: 483px;
+}
+
+#det_wrapper
+{
+	padding-top: 275px;
+	margin-left: 25px;
+}
+
+#detroit
+{
+	width: 954px;
+	height: 236px;
+}
+
+#det2_wrapper
+{
+	padding-top: 200px;
+	margin-left: 65px;
+}
+
+#detroit2
+{
+	width: 874px;
+	height: 373px;
+}
+
+#about_box
+{
+	margin: auto;
+	width: 1000px;
+	height: 1000px;
+}
+
+#about_img
+{
+	float: right;
+	border: solid;
+	border-color: black;
+}
+
+.about_content
+{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 35px;
+	color: white;
+}
+
+#contact_box
+{
+	margin: auto;
+	width: 1000px;
+	height: 220px;
+}
+
+#contact_content
+{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 40px;
+	color: white;
+}
+
+#lifeguards_wrapper
+{
+	padding-top: 200px;
+	margin-left: 165px;
+}
+
+#lifeguards
+{
+}
+
+#yana_wrapper
+{
+	padding-top: 240px;
+	margin-left: 17px;
+}
+
+#yana
+{
+	width: 965px;
+	height: 297px;
+}
