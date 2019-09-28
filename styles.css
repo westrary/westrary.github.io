@@ -215,3 +215,17 @@ body
 	width: 965px;
 	height: 297px;
 }
+
+@media screen and (max-width: 800px)
+{
+	body
+	{
+		background-color: green;
+	}
+
+	#pear
+	{
+		width: 250px;
+		height: 250px;
+	}
+}
