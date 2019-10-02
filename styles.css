@@ -79,14 +79,14 @@ body
 	{
 		left: 50%;
 		margin-left: -100px;
-		padding-top: 200px;
+		margin-top: 200px;
 	}
 
 	#about_link
 	{
 		left: 50%;
 		margin-left: -100px;
-		padding-top: 400px;
+		margin-top: 400px;
 
 	}
 
@@ -94,14 +94,14 @@ body
 	{
 		left: 50%;
 		margin-left: -100px;
-		padding-top: 600px;
+		margin-top: 600px;
 	}
 
 	#contact_link
 	{
 		left: 50%;
 		margin-left: -100px;
-		padding-top: 800px;
+		margin-top: 800px;
 	}
 }
 
@@ -129,14 +129,14 @@ body
 	#designs_link
 	{
 		right: 200px;
-		padding-top: 200px;
+		margin-top: 200px;
 
 	}
 
 	#contact_link
 	{
 		right: 0px;
-		padding-top: 200px;
+		margin-top: 200px;
 	}
 	
 	#rjw_header

@@ -1,0 +1,117 @@
+body
+{
+	margin: 0;
+}
+
+#header_bg
+{
+	width: 100%;
+	height: 100px;
+	background-color: #e7ffb7ff;
+	position: absolute;
+}
+
+#home_link
+{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 50%;
+	margin-left: -200px;
+}
+
+#about_link
+{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 50%;
+	margin-left: -100px;
+}
+
+#designs_link
+{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 50%;
+	margin-left: 0px;
+}
+
+#contact_link
+{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 50%;
+	margin-left: 100px;
+}
+
+#pear2
+{
+	position: absolute;
+	width: 600px;
+	height: 600px;
+	left: 50%;
+	margin-left: -300px;
+	margin-top: 200px;
+}
+
+
+#back
+{
+	width: 200px;
+	height: 200px;
+	margin-top: 400px;
+	left: 50%;
+	margin-left: -500px;
+	position: absolute;
+}
+
+#next
+{
+	width: 200px;
+	height: 200px;
+	margin-top: 400px;
+	right: 50%;
+	margin-right: -500px;
+	position: absolute;
+}
+
+#atdt
+{
+	width: 583px;
+	height: 519px;
+	position: absolute;
+	left: 50%;
+	margin-left: -292px;
+	margin-top: 200px;
+}
+
+@media screen and (max-width: 900px)
+{
+	#pear2
+	{
+		width: 400px;
+		height: 400px;
+		left: 50%;
+		margin-left: -200px;
+		margin-top: 200px;
+	}
+	
+	#back
+	{
+		width: 100px;
+		height: 100px;
+		margin-top: 100px;
+		margin-left: -200px;
+	}
+
+	#next
+	{
+		width: 100px;
+		height: 100px;
+		margin-top: 100px;
+		margin-right: -200px;
+	}
+}
