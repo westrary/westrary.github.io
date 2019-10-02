@@ -1,318 +1,156 @@
 body
 {
-	background-color: #5b5b5bff;
-	margin-left: 0px;
-	padding-left: 0px;
-	margin-top: 0px;
-	padding-top: 0px;
-}
-
-h1
-{
 	margin: 0;
 }
 
-#pear
-{
-	width: 600px; 
-	height: 600px;
-}
 
-#box
-{
-	width: 600px;
-	margin: auto;
-}
 
-#header_mobile
-{
-	display: none;
-}
 
-#header_img
-{
-	width: 950px;
-	height: 169px;
-}
-
-#header_box
-{
-	width: 950px;
-	margin: auto;
-}
-
-#buttons_box
-{
-	width: 1550px;
-	height: 126px;
-	margin: auto;
-}
-
-#buttons_box_mobile
-{
-	display: none;
-}
-
-.button_properties
-{
-	width: 378px;
-	height: 126px;
-}
-
-#icon_box
-{
-	width: 200px;
-	margin: auto;
-}
-
-#icon_img
+#pear_header
 {
 	width: 200px;
 	height: 200px;
+	left: 200px;
+	position: absolute;
 }
 
-#design_box
+#rjw_header
 {
-	width: 833px;
-	height: 667px;
-	margin: auto;
-	background-color: white;
-	border-style: solid;
-	border-color: black;
+	width: 200px;
+	height: 200px;
+	position: absolute;
 }
 
-#black_design_box
+#home_link
 {
-	width: 833px;
-	height: 667px;
-	margin: auto;
-	background-color: black;
-	border-style: solid;
-	border-color: black;
+	right: 600px;
+	width: 200px;
+	height: 200px;
+	position: absolute;
 }
 
-#atdt
+#about_link
 {
-	width: 728px;
-	height: 649px;
-}
-#atdt_wrapper
-{
-	margin-left: 50px;
-	padding-top: 10px;
+	right: 400px;
+	width: 200px;
+	height: 200px;
+	position: absolute;
 }
 
-.back_next
+#designs_link
 {
-	width: 1000px;
-	height: 75px;
-	margin: auto;
+	right: 200px;
+	width: 200px;
+	height: 200px;
+	position: absolute;
 }
 
-.bn_properties
+#contact_link
 {
-	width: 225px;
-	height: 75px;
+	right: 0px;
+	width: 200px;
+	height: 200px;
+	position: absolute;
 }
 
-.bn_center
+#header_bg
 {
-	margin-left: 275px;
+	width: 100%;
+	height: 200px;
+	background-color: #e7ffb7ff;
+	position: absolute;
 }
 
-.img_title
-{
-	text-align: center;
-	font-family: "Times New Roman", Times, serif;
-	font-size: 40px;
-	color: white;
-}
-
-.img_content
-{
-	font-family: "Times New Roman", Times, serif;
-	font-size: 25px;
-	color: white;
-}
-
-.img_head
-{
-	width: 833px;
-	height: 150px;
-	margin: auto;
-}
-
-#jesus_wrapper
-{
-	padding-top: 150px;
-	margin-left: 75px;
-}
-
-#jesus
-{
-	width: 896px;
-	height: 483px;
-}
-
-#det_wrapper
-{
-	padding-top: 275px;
-	margin-left: 25px;
-}
-
-#detroit
-{
-	width: 954px;
-	height: 236px;
-}
-
-#det2_wrapper
-{
-	padding-top: 200px;
-	margin-left: 65px;
-}
-
-#detroit2
-{
-	width: 874px;
-	height: 373px;
-}
-
-#about_box
-{
-	margin: auto;
-	width: 1000px;
-	height: 1000px;
-}
-
-#about_img
-{
-	float: right;
-	border: solid;
-	border-color: black;
-}
-
-.about_content
-{
-	font-family: "Times New Roman", Times, serif;
-	font-size: 35px;
-	color: white;
-}
-
-#contact_box
-{
-	margin: auto;
-	width: 1000px;
-	height: 220px;
-}
-
-#contact_content
-{
-	font-family: "Times New Roman", Times, serif;
-	font-size: 40px;
-	color: white;
-}
-
-#lifeguards_wrapper
-{
-	padding-top: 200px;
-	margin-left: 165px;
-}
-
-#lifeguards
-{
-}
-
-#yana_wrapper
-{
-	padding-top: 240px;
-	margin-left: 17px;
-}
-
-#yana
-{
-	width: 965px;
-	height: 297px;
-}
 
 @media screen and (max-width: 800px)
 {
-	#pear
-	{
-		width: 400px;
-		height: 400px;
-	}
-
-	#box
-	{
-		width: 400px;
-		margin: auto;
-	}
-
-	#header_mobile
-	{
-		display: block;
-		width: 300px;
-		height: 300px;
-
-	}
-
-	#header_img
+	#rjw_header
 	{
 		display: none;
 	}
-
-	#header_box
+	
+	#pear_header
 	{
-		width: 300px;
+		left: 50%;
+		margin-left: -100px;
+	}
+	
+	#home_link
+	{
+		left: 50%;
+		margin-left: -100px;
+		padding-top: 200px;
 	}
 
-	#pear
+	#about_link
 	{
-		display: none;
+		left: 50%;
+		margin-left: -100px;
+		padding-top: 400px;
+
 	}
 
-	#icon_img
+	#designs_link
 	{
-		display: none;
+		left: 50%;
+		margin-left: -100px;
+		padding-top: 600px;
 	}
 
-	#buttons_box
+	#contact_link
 	{
-		display: none;
-	}
-
-	#buttons_box_mobile
-	{
-		display: block;
-		margin: auto;
-		width: 378px;
-	}
-
-	#about_img
-	{
-		width: 250px;
-		height: 480px;
-	}
-
-	#about_box
-	{
-		width: 400px;
-		height: 400px;
-	}
-
-	.about_content
-	{
-		font-size: 25px;
-	}
-
-	#contact_box
-	{
-		width: 400px;
-	}
-
-	#contact_content
-	{
-		font-size: 25px;
+		left: 50%;
+		margin-left: -100px;
+		padding-top: 800px;
 	}
 }
+
+
+
+@media screen and (max-width: 1200px) and (min-width: 800px)
+{
+	#header_bg
+	{
+		width: 100%;
+		height: 400px;
+	}
+	
+	#home_link
+	{
+		right: 200px;
+	}
+
+	#about_link
+	{
+		right: 0px;
+
+	}
+
+	#designs_link
+	{
+		right: 200px;
+		padding-top: 200px;
+
+	}
+
+	#contact_link
+	{
+		right: 0px;
+		padding-top: 200px;
+	}
+	
+	#rjw_header
+	{
+		display: none;
+	}
+	
+	#pear_header
+	{
+		width: 400px;
+		height: 400px;
+		left: 0px;
+	}
+}
+
+
+
