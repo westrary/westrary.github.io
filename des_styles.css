@@ -88,8 +88,38 @@ body
 	margin-top: 200px;
 }
 
+#jesus
+{
+	width: 538px;
+	height: 290px;
+	position: absolute;
+	left: 50%;
+	margin-left: -269px;
+	margin-top: 350px;
+}
+
 @media screen and (max-width: 900px)
 {
+	#atdt
+	{
+		width: 389px;
+		height: 346px;
+		position: absolute;
+		left: 50%;
+		margin-left: -195px;
+		margin-top: 200px;
+	}
+
+	#jesus
+	{
+		width: 359px;
+		height: 193px;
+		position: absolute;
+		left: 50%;
+		margin-left: -180px;
+		margin-top: 200px;
+	}
+	
 	#pear2
 	{
 		width: 400px;
