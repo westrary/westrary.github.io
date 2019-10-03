@@ -152,8 +152,44 @@ body
 	margin-top: 325px;
 }
 
+#dcf
+{
+	position: absolute;
+	left: 50%;
+	width: 533px;
+	height: 640px;
+	margin-left: -267px;
+	margin-top: 175px;
+}
+
+#lifeguards
+{
+	position: absolute;
+	left: 50%;
+	width: 534px;
+	height: 295px;
+	margin-left: -267px;
+	margin-top: 325px;
+}
+
 @media screen and (max-width: 950px)
 {
+	#lifeguards
+	{
+		width: 381px;
+		height: 211px;
+		margin-left: -191px;
+		margin-top: 200px;
+	}
+	
+	#dcf
+	{
+		width: 381px;
+		height: 457px;
+		margin-left: -191px;
+		margin-top: 200px;
+	}
+	
 	#witt
 	{
 		width: 381px;
