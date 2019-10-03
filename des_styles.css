@@ -7,7 +7,7 @@ body
 {
 	width: 100%;
 	height: 100px;
-	background-color: #e7ffb7ff;
+	background-image: linear-gradient(to right, #d1ff74ff, white);
 	position: absolute;
 }
 
@@ -114,6 +114,7 @@ body
 
 @media screen and (max-width: 950px)
 {
+	
 	#atdt
 	{
 		width: 389px;
