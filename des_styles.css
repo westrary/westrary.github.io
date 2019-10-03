@@ -112,8 +112,80 @@ body
 	height: 142px;
 }
 
+#detroit2
+{
+	position: absolute;
+	left: 50%;
+	margin-top: 375px;
+	margin-left: -292px;
+	width: 583px;
+	height: 249px;
+}
+
+#paradox
+{
+	position: absolute;
+	left: 50%;
+	margin-top: 325px;
+	margin-left: -280px;
+	width: 560px;
+	height: 316px;
+}
+
+#rat
+{
+	position: absolute;
+	left: 50%;
+	width: 561px;
+	height: 374px;
+	margin-left: -281px;
+	margin-top: 325px;
+}
+
+#witt
+{
+	position: absolute;
+	left: 50%;
+	width: 572px;
+	height: 402px;
+	margin-left: -286px;
+	margin-top: 325px;
+}
+
 @media screen and (max-width: 950px)
 {
+	#witt
+	{
+		width: 381px;
+		height: 268px;
+		margin-left: -191px;
+		margin-top: 200px;
+	}
+	
+	#rat
+	{
+		width: 401px;
+		height: 267px;
+		margin-left: -200px;
+		margin-top: 200px;
+	}
+	
+	#paradox
+	{
+		margin-top: 200px;
+		margin-left: -200px;
+		width: 400px;
+		height: 226px;
+	}
+	
+	
+	#detroit2
+	{
+		margin-top: 200px;
+		margin-left: -199px;
+		width: 397px;
+		height: 170px;
+	}
 	
 	#atdt
 	{
