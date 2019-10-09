@@ -3,105 +3,21 @@ body
 	margin: 0;
 }
 
-#outer
-{
-	position: relative;
-	overflow-x: hidden;
-}
-
-#box
+#c1
 {
 	position: absolute;
-	margin-top: 225px;
+	margin-top: 250px;
 	left: 50%;
-	margin-left: -675px;
-	width: 300px;
-	height: 300px;
-	background-color: #d1ff74ff;
-}
-
-#box2
-{
-	position: absolute;
-	margin-top: 225px;
-	left: 50%;
-	margin-left: -1025px;
-	width: 300px;
-	height: 300px;
-	background-color: #e4ffacff;
-}
-
-#box3
-{
-	position: absolute;
-	margin-top: 225px;
-	right: 50%;
-	margin-right: -675px;
-	width: 300px;
-	height: 300px;
-	background-color: #d1ff74ff;
-}
-
-#box4
-{
-	position: absolute;
-	margin-top: 225px;
-	right: 50%;
-	margin-right: -1025px;
-	width: 300px;
-	height: 300px;
-	background-color: #e4ffacff;
-}
-
-#box5
-{
-	position: absolute;
-	margin-top: 575px;
-	left: 50%;
-	margin-left: -675px;
-	width: 300px;
-	height: 300px;
-	background-color: #d1ff74ff;
-}
-
-#box6
-{
-	position: absolute;
-	margin-top: 575px;
-	left: 50%;
-	margin-left: -1025px;
-	width: 300px;
-	height: 300px;
-	background-color: #e4ffacff;
-}
-
-#box7
-{
-	position: absolute;
-	margin-top: 575px;
-	right: 50%;
-	margin-right: -675px;
-	width: 300px;
-	height: 300px;
-	background-color: #d1ff74ff;
-}
-
-#box8
-{
-	position: absolute;
-	margin-top: 575px;
-	right: 50%;
-	margin-right: -1025px;
-	width: 300px;
-	height: 300px;
-	background-color: #e4ffacff;
+	width: 700px;
+	height: 700px;
+	margin-left: -350px;
 }
 
 
 #img_home
 {
 	position: absolute;
-	margin-top: 225px;
+	margin-top: 275px;
 	left: 50%;
 	margin-left: -325px;
 	width: 300px;
@@ -111,7 +27,7 @@ body
 #img_home2
 {
 	position: absolute;
-	margin-top: 225px;
+	margin-top: 275px;
 	left: 50%;
 	margin-left: 25px;
 	width: 300px;
@@ -121,7 +37,7 @@ body
 #img_home3
 {
 	position: absolute;
-	margin-top: 575px;
+	margin-top: 625px;
 	left: 50%;
 	margin-left: -325px;
 	width: 300px;
@@ -131,7 +47,7 @@ body
 #img_home4
 {
 	position: absolute;
-	margin-top: 575px;
+	margin-top: 625px;
 	left: 50%;
 	margin-left: 25px;
 	width: 300px;
@@ -232,6 +148,11 @@ body
 
 @media screen and (max-width: 800px)
 {
+	#c1
+	{
+		display: none;
+	}
+	
 	#box, #box2, #box3, #box4
 	{
 		display: none;
@@ -418,22 +339,22 @@ body
 	
 	#img_home
 	{
-		margin-top: 425px;
+		margin-top: 475px;
 	}	
 	
 	#img_home2
 	{
-		margin-top: 425px;
+		margin-top: 475px;
 	}
 	
 	#img_home3
 	{
-		margin-top: 775px;
+		margin-top: 825px;
 	}
 	
 	#img_home4
 	{
-		margin-top: 775px;
+		margin-top: 825px;
 	}
 	
 	#box, #box2, #box3, #box4
@@ -444,6 +365,11 @@ body
 	#box5, #box6, #box7, #box8
 	{
 		margin-top: 775px;
+	}
+	
+	#c1
+	{
+		margin-top: 450px;
 	}
 }
 
