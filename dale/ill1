@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="styles.css">
+<title>Angel</title>
+</head>
+
+<body>
+<a href="illustration.html">
+	<img id="illustration" src="illustration.png" alt="illustration">
+</a>
+
+<a href="blog.html">
+	<img id="blog" src="blog.png" alt="blog">
+</a>
+
+<a href="contact.html">
+	<img id="contact" src="contact.png" alt="contact">
+</a>
+
+<a href="index.html">
+	<img id="home" src="home.png" alt="home">
+</a>
+
+<img id="main_logo" src="main_logo_greyed.png" alt="main_logo">
+
+<img id="b1" src="illustrations\angel_s.jpg" alt="angel_s">
+<img id="b2" src="illustrations\bandw_s.jpg" alt="angel_s">
+<img id="b3" src="illustrations\blonde_s.jpg" alt="angel_s">
+<img id="b4" src="illustrations\bb_s.jpg" alt="angel_s">
+<img id="b5" src="illustrations\grnsht_s.jpg" alt="angel_s">
+<img id="b6" src="illustrations\orchid_s.jpg" alt="angel_s">
+<img id="b7" src="illustrations\redhat_s.jpg" alt="angel_s">
+<img id="b8" src="illustrations\tattoo_s.jpg" alt="angel_s">
+
+</body>
+
+</html>

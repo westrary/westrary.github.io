@@ -1,0 +1,274 @@
+#main_logo
+{
+	margin-top: 100px;
+	position: absolute;
+	left: 50%;
+	margin-left: -250px;
+	width: 500px;
+	height: 500px;
+}
+
+#illustration
+{
+	position: absolute;
+	width: 200px;
+	height: 50px;
+}
+
+#blog
+{
+	position: absolute;
+	left: 200px;
+	width: 200px;
+	height: 50px;
+}
+
+#contact
+{
+	position: absolute;
+	left: 400px;
+	width: 200px;
+	height: 50px;
+}
+
+#home
+{
+	position: absolute;
+	right: 0px;
+	width: 200px;
+	height: 50px;
+}
+
+
+#quote1
+{
+	position: absolute;
+	left: 25%;
+	margin-left: -250px;
+	margin-top: 300px;
+	width: 250px;
+	height: 100px;
+	
+}
+
+#a1
+{
+	border-style: solid;
+	margin-top: 100px;
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 50%;
+	margin-left: -475px;
+}
+
+#a2
+{
+	border-style: solid;
+	margin-top: 100px;
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 50%;
+	margin-left: -225px;
+}
+
+#a3
+{
+	border-style: solid;
+	margin-top: 100px;
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 50%;
+	margin-left: 25px;
+}
+
+#a4
+{
+	border-style: solid;
+	margin-top: 100px;
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 50%;
+	margin-left: 275px;
+}
+
+#a5
+{
+	border-style: solid;
+	margin-top: 350px;
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 50%;
+	margin-left: -475px;
+}	
+
+#a6
+{
+	border-style: solid;
+	margin-top: 350px;
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 50%;
+	margin-left: -225px;
+}	
+
+#a7
+{
+	border-style: solid;
+	margin-top: 350px;
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 50%;
+	margin-left: 25px;
+}	
+
+#a8
+{
+	border-style: solid;
+	margin-top: 350px;
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 50%;
+	margin-left: 275px;
+}	
+
+#angel
+{
+	position: absolute;
+	margin-top: 100px;
+	border-style: solid;
+	width: 286px;
+	height: 400px;
+	left: 50%;
+	margin-left: -143px;
+}
+
+
+#b1
+{
+	border-style: solid;
+	margin-top: 525px;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 50%;
+	margin-left: -137.5px;
+}
+
+#b2
+{
+	border-style: solid;
+	margin-top: 525px;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 50%;
+	margin-left: -62.5px;
+}
+
+#b3
+{
+	border-style: solid;
+	margin-top: 525px;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 50%;
+	margin-left: 12.5px;
+}
+
+#b4
+{
+	border-style: solid;
+	margin-top: 525px;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 50%;
+	margin-left: 87.5px;
+}
+
+#b5
+{
+	border-style: solid;
+	margin-top: 600px;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 50%;
+	margin-left: -137.5px;
+}
+
+#b6
+{
+	border-style: solid;
+	margin-top: 600px;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 50%;
+	margin-left: -62.5px;
+}
+
+#b7
+{
+	border-style: solid;
+	margin-top: 600px;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 50%;
+	margin-left: 12.5px;
+}
+
+#b8
+{
+	border-style: solid;
+	margin-top: 600px;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 50%;
+	margin-left: 87.5px;
+}
+
+
+
+@media screen and (max-width: 600px)
+{
+	#main_logo
+	{
+		margin-top: 200px;
+		margin-left: -200px;
+		width: 395px;
+		height: 364px;
+		
+	}
+	
+	#illustration
+	{
+		left: 50%;
+		margin-left: -100px;
+	}
+	
+	#blog
+	{
+		left: 50%;
+		margin-top: 75px;
+		margin-left: -100px;
+	}
+	
+	#contact
+	{
+		left: 50%;
+		margin-top: 150px;
+		margin-left: -100px;
+	}
+}
