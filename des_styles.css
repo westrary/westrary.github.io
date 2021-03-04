@@ -142,6 +142,16 @@ body
 	margin-top: 325px;
 }
 
+#steven
+{
+	position: absolute;
+	left: 50%;
+	width: 561px;
+	height: 561px;
+	margin-left: -281px;
+	margin-top: 225px;
+}
+
 #witt
 {
 	position: absolute;
@@ -172,8 +182,34 @@ body
 	margin-top: 325px;
 }
 
+#caturn
+{
+	position: absolute;
+	left: 50%;
+	width: 500px;
+	height: 500px;
+	margin-left: -250px;
+	margin-top: 250px;
+}
+
 @media screen and (max-width: 950px)
 {
+	#caturn
+	{
+		width: 400px;
+		height: 400px;
+		margin-left: -200px;
+		margin-top: 200px;
+	}
+	
+	#steven
+	{
+		width: 400px;
+		height: 400px;
+		margin-left: -210px;
+		margin-top: 200px;
+	}
+
 	#lifeguards
 	{
 		width: 381px;
